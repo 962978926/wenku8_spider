@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 import json
 from multiprocessing import Pool
 
-# TODO:去重，过滤空白符
+# TODO:去重
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0',
 }
